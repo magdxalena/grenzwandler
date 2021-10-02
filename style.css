@@ -1,0 +1,91 @@
+@font-face {
+    font-family:"Space Grotesk";
+    src:url("font/SpaceGrotesk-Regular.woff2") format("woff2"),url("font/SpaceGrotesk-Regular.woff") format("woff"),url("font/SpaceGrotesk-Regular.otf") format("opentype");
+    font-style:normal;font-weight:400;
+}
+
+html { box-sizing: border-box }
+*, *:before, *:after { box-sizing: inherit }
+html, body, h1, h2, h3, h4, h5, h6, p, ol, ul, li { margin: 0; padding: 0 }
+
+html {
+    font-family: "Space Grotesk", Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+}
+
+body {
+    padding: 5rem 3rem 10rem 3rem;
+    background-color: #ebebeb;
+}
+
+p {
+    font-size: 2rem;
+    line-height: 2.4rem;
+    color: #7a7d12;
+    text-align: center;
+}
+
+.text {
+    max-width: 45rem;
+}
+
+a {
+    font-size: inherit;
+    color: #8f63d6;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #ff7a1f;
+    text-decoration: none;
+    align-items: center;
+}
+
+img {
+  margin-left: auto;
+  margin-right: auto;
+  height: auto;
+  width: auto;
+  max-width: 20rem;
+}
+
+video {
+  margin-left: auto;
+  margin-right: auto;
+  height: auto;
+  width: 100%;
+}
+
+.button {
+    color: #ebebeb;
+    background-color: #8f63d6;
+    font-size: 2rem;
+    text-decoration: none;
+    text-align: center;
+    border: 1px solid #8f63d6;
+    border-radius: 66px;
+    padding: 0.5rem 3rem 0.5rem 3rem;
+    margin: 0rem 1rem 0rem 1rem;
+    width: 15rem;
+}
+
+.button:hover {
+    color: #ebebeb;
+    text-decoration: none;
+    background-color: #ff7a1f;
+    border: 1px solid #ff7a1f;
+    transition: 0.15s;
+    cursor: pointer;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  padding-top: 3rem;
+}
+
+header {
+  display: flex;
+  align-items: center;
+}
