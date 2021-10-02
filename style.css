@@ -89,3 +89,22 @@ header {
   display: flex;
   align-items: center;
 }
+
+@media screen and (max-width: 600px) {
+  p {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+
+  body {
+    padding: 2rem 2rem 5rem 2rem;
+  }
+
+  .button {
+    font-size: 1.5rem;
+    padding: 0.5rem 2rem 0.5rem 2rem;
+  }
+
+
+
+}
